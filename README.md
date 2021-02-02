@@ -1,3 +1,3 @@
 # KOKOA CLONE PROJECT
 
-HTML is easy!!
+HTML & CSS is easy!!
