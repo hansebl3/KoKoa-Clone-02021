@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(235, 226, 226);
+  height: 100vh;
+  justify-content: center;
+}
+header {
+  display: flex;
+  height: 100px;
+  background-color: rgb(235, 226, 226);
+  justify-content: center;
+  align-items: center;
+}
+.colorline {
+  display: flex;
+  height: 450px;
+  background-color: rgb(235, 226, 226);
+  justify-content: center;
+  align-items: center;
+}
+.colorbox {
+  border: white;
+  border-style: solid;
+  border-width: 10px;
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: gray;
+  position: relative;
+}
+
+#firstbox {
+  background-color: tomato;
+}
+
+#secondbox {
+  background-color: teal;
+}
+#thirdbox {
+  background-color: burlywood;
+}
+#fourthbox {
+  background-color: thistle;
+}
+.colorbox div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 50px;
+  width: 205px;
+  align-items: top;
+  justify-items: left;
+  font-weight: bold;
+  position: absolute;
+  top: 25px;
+}
