@@ -1,5 +1,13 @@
 <html>
+    <style>
+        #bar{
+            color: black;
+        }
+    </style>
+
+
 <body>
+    <h1>Create An Account</h1>
     <form>
     <div>   
     <Label>First Name
@@ -39,9 +47,23 @@
 
     <div>
     <Label>How happy are you??
-        <input id="bluebar" type="range" min="0" max="10" required >
+        <input id="bar" type="range" list="tickmarks" required >
     </Label>
     </div>
+
+    <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
 
     <div>
     <Label>What is your favrite color??
