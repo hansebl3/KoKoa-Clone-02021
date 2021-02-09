@@ -1,3 +1,27 @@
+@keyframes pointsrotate {
+  0% {
+    transform: rotatez(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes barsscale {
+  0% {
+    transform: scaleY(1);
+  }
+  10% {
+    transform: scaleY(2);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
 body {
   display: flex;
   background-color: brown;
@@ -14,7 +38,7 @@ body div {
   margin: 20px;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
+  background-color: brown;
 }
 
 .points div {
@@ -33,9 +57,30 @@ body div {
 }
 
 .points {
-  transform: rotatez(45deg);
+  animation: pointsrotate 1s ease-in-out infinite;
 }
 
 .bars :nth-child(1) {
-  transform: scaleY(2);
+  animation: barsscale 2.5s ease-in-out infinite;
+  animation-delay: 0s;
+}
+
+.bars :nth-child(2) {
+  animation: barsscale 2.5s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.bars :nth-child(3) {
+  animation: barsscale 2.5s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.bars :nth-child(4) {
+  animation: barsscale 2.5s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+.bars :nth-child(5) {
+  animation: barsscale 2.5s ease-in-out infinite;
+  animation-delay: 2s;
 }
