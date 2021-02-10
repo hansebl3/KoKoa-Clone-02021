@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  height: 100vh;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 900px;
+  background-color: coral;
+  border: solid blue 5px;
+}
+
+.second_song {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.third_song {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.fourth_song {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.fifth_song {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.redbox {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.second_song_title {
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pinkbox {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+}
+
+.third_song_title {
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bluebox {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+}
+
+.fourth_song_title {
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bluegreenbox {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: teal;
+}
+
+.fifth_song_title {
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
