@@ -1,4 +1,6 @@
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   height: 100vh;
   background-color: aqua;
@@ -9,10 +11,80 @@ body {
 .mainbox {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 900px;
-  background-color: coral;
-  border: solid blue 5px;
+  width: 300px;
+  height: 600px;
+  background-color: white;
+  border: solid teal 5px;
+}
+
+.maintitle {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.maintitle :last-child {
+  padding-left: 80px;
+}
+
+.SongTitle {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 5px 20px 5px;
+}
+
+.first_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.first_title {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 100px;
+}
+
+.first_title :first-child {
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+.playbuttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.playbuttons div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  border: solid black 3px;
+  border-bottom-width: 6px;
+}
+
+.playbuttons__play {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.playbuttons__heart {
+  width: 50px;
+  border-radius: 50%;
+}
+.playbuttons__plus {
+  width: 50px;
+  border-radius: 50%;
 }
 
 .second_song {
@@ -37,10 +109,19 @@ body {
   margin: 10px;
 }
 
-.redbox {
+.nth_song_title :first-child {
+  font-weight: bolder;
+}
+
+.roundbox {
   padding: 5px;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+.redbox {
   background-color: red;
 }
 
@@ -53,9 +134,6 @@ body {
 }
 
 .pinkbox {
-  padding: 5px;
-  width: 40px;
-  height: 40px;
   background-color: pink;
 }
 
@@ -68,9 +146,6 @@ body {
 }
 
 .bluebox {
-  padding: 5px;
-  width: 40px;
-  height: 40px;
   background-color: blue;
 }
 
@@ -83,9 +158,6 @@ body {
 }
 
 .bluegreenbox {
-  padding: 5px;
-  width: 40px;
-  height: 40px;
   background-color: teal;
 }
 
