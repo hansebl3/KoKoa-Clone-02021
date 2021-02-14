@@ -28,7 +28,9 @@
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span>
+            <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+            </span>
         </div>
     </header>
 
@@ -37,26 +39,70 @@
         <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
-    <nav class="nav">
-    <ul class="nav__list">
-        <li class="nav__btn"><a class="nav__link" href="firends.html"><i class="fas fa-user fa-2x"></i></a></li>
-        <li class="nav__btn">
-            <a class="nav__link" href="#">
-                <i class="fas fa-comment fa-2x"></i>
-                <span class="nav__noti">2</span>
-            </a>
-        </li>
-        <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
-        <li class="nav__btn">
-            <a class="nav__link" href="#">
-                <span class="nav__noti2"></span>
-                <i class="fas fa-ellipsis-h fa-2x"></i>
-            </a>
-        </li>
-    </ul>
-    </nav>
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar--xl" src="https://static.wikia.nocookie.net/pokemon/images/6/64/%EC%A7%80%EC%9A%B0%EA%B0%9C%EA%B5%B4%EB%8B%8C%EC%9E%90_%EA%B3%B5%EC%8B%9D_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8.png/revision/latest/scale-to-width-down/340?cb=20161007034810&path-prefix=ko" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Ross</h4>
+                    <!-- <h6 class="user-component__subtitle">this is whatever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--xs" src="https://static.wikia.nocookie.net/pokemon/images/6/64/%EC%A7%80%EC%9A%B0%EA%B0%9C%EA%B5%B4%EB%8B%8C%EC%9E%90_%EA%B3%B5%EC%8B%9D_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8.png/revision/latest/scale-to-width-down/340?cb=20161007034810&path-prefix=ko" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        <!-- <h6 class="user-component__subtitle">this is whatever</h6> -->
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div>
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
-6.16 할 차례...
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <i class="far fa-comment fa-2x"></i>
+                    <span class="nav__noti badge">2</span>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="dot-badge"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        </nav>
+
+    
 
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
