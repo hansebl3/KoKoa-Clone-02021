@@ -1,3 +1,0 @@
-# KOKOA CLONE PROJECT
-
-HTML & CSS is easy!!
